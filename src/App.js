@@ -3,6 +3,7 @@ import './App.css';
 import HeadMenu from './Components/visualComponents/estructureComponents/headMenu/headMenu';
 import Estoque from './pages/estoque/estoque';
 import Fornecedores from './pages/fornecedores/fornecedores';
+import Produtos from './pages/produtos/produtos';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<HeadMenu />} />
           <Route path='/estoque' element={<Estoque/>} />
           <Route path='/fornecedores' element={<Fornecedores/>} />
+          <Route path='/produtos' element={<Produtos/>} />
         </Routes>
       </Router>
     </div>
